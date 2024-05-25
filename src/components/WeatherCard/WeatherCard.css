@@ -1,0 +1,25 @@
+.card-container {
+    width: 70%;
+    height: 60dvh;
+    border-radius: 25px;
+    background: url("../../assets/BG.png") center center/cover no-repeat;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

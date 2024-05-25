@@ -1,0 +1,12 @@
+.table {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.5fr 0.5fr 0.5fr;
+    border: 1px solid black;
+    text-align: center;
+    background: rgb(23, 35, 89);
+    color: white;
+}
+.table-color {
+    background: black;
+    color: white;
+}
