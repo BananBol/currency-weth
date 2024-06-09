@@ -1,5 +1,5 @@
 import searchLogo from '../../assets/icon _search_.png'
-import React, {useState} from 'react';
+import { useState } from 'react'
 import './WeatherForm.css'
 
 const form = (props) => {
@@ -11,7 +11,6 @@ const form = (props) => {
 
 
   const [inputValue, setInputValue] = useState('')
-
 
   return (
     <div className='form-container'>
